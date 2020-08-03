@@ -32,12 +32,10 @@ module.exports = {
             name:
                 'refactor: A code change that neither fixes a bug nor adds a feature',
         },
-        { value: ':x:', name: 'delete:    deleted one or more files' }
+        { value: ':x:', name: 'delete:    deleted one or more files' },
     ],
 
-    scopes: [
-        { name: '' },
-    ],
+    scopes: [{ name: 'web' }],
 
     allowTicketNumber: false,
     isTicketNumberRequired: false,
@@ -55,7 +53,8 @@ module.exports = {
         breaking: 'List any BREAKING CHANGES (optional):\n',
         footer:
             'List any ISSUES CLOSED by this change (optional). E.g.: #31, #34:\n',
-        confirmCommit: 'Are you sure you want to proceed with the commit above?',
+        confirmCommit:
+            'Are you sure you want to proceed with the commit above?',
     },
 
     allowCustomScopes: true,
@@ -65,4 +64,4 @@ module.exports = {
 
     // limit subject length
     subjectLimit: 100,
-};
+}
