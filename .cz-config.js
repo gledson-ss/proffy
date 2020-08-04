@@ -35,7 +35,7 @@ module.exports = {
         { value: ':x:', name: 'delete:    deleted one or more files' },
     ],
 
-    scopes: [{ name: 'web' }],
+    scopes: [{ name: 'web' }, { name: 'server' }],
 
     allowTicketNumber: false,
     isTicketNumberRequired: false,
