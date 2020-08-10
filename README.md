@@ -1,12 +1,6 @@
-<!-- <p align="center">    
- <img src="" width=200px height=200px />    
-</p> -->
-
-<h1 align="center">
-
-Proffy
-
-</h1>
+<p align="center">    
+ <img src="./assets-README/logo.png" width=200px height=100px />    
+</p>
 
 <p align="center">
 	<p align="center">    
@@ -20,10 +14,15 @@ Proffy
 - This project was created for rocketseat in Next Level Week event. Lessons that is done with the intention of teaching new fullstack technologies to thousands of people.
 
 ## ✨ Feature
-- ...
+- this project performs the registration of the teachers' agendas, and the students can access the agendas at any time.
 
 ## 🚀 Getting started  
-- ...
+- yarn command in any folder
+- web, mobile, server
+  - yarn 
+  - yarn start
+- server
+  - knex:migrate, to create database
 
 ## ✅ Accepted Commits
 
