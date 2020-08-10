@@ -5,12 +5,12 @@ import PageHeader from '../../components/PageHeader';
 
 import styles from './styles';
 
-const TeacherList: React.FC = () => {
+function TeacherList() {
   return (
     <View style={styles.container}>
-        <PageHeader title="Proffys disponíveis"/>
+      <PageHeader title="Proffys disponíveis" />
     </View>
-  )
+  );
 }
 
 export default TeacherList;
